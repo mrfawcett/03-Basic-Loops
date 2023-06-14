@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-class IsValidTestTest {
+class IsValidTest {
 
     @DisplayName("isValid Test 1")
     @Test
