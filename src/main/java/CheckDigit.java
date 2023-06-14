@@ -1,7 +1,5 @@
 public class CheckDigit {
-    public static void main (String[] args) {
-        // System.out.println(getDigit(128374, 3));
-    }
+    
     /** Returns the number of digits in num. */
     public static int getNumberOfDigits(int num) {
         int count = 0;
