@@ -17,6 +17,8 @@
 
 public class Hailstone {
 
+    public static void main(String[] args){}
+    
     /** COMPLETE THIS METHOD
      * Precondition: n > 0
      * Returns the length of a hailstone sequence that starts with n,
