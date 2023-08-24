@@ -1,4 +1,5 @@
 public class CheckDigit {
+    public static void main(String[] args){}
     
     /** Returns the number of digits in num. */
     public static int getNumberOfDigits(int num) {
