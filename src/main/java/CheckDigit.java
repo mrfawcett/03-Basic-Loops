@@ -30,14 +30,18 @@ public class CheckDigit {
      * Multiply the first digit by 7, the second digit (if one exists) by 6, the third
      * digit (if one exists) by 5, and so on.
      * Add the products calculated in the previous step.
-     * Extract the check digit, which is the rightmopst digit of the sum calculated.
+     * Extract the check digit, which is the rightmost digit of the sum calculated.
      * Ex. num = 1732
      * 1x7 + 7x6 + 3x5 + 2x4 = 72
      * getCheck returns 2
      */
     public static int getCheck(int num) {
+        int sum = 0;
+        for (int i = 0, j = 7; i < getNumberOfDigits(num); i++, j--) {
+            sum += getDigit(num, i + 1) * j;
+        }
 
-        return 0;
+        return getDigit(sum, getNumberOfDigits(sum));
     }
 
 
