@@ -36,12 +36,9 @@ public class CheckDigit {
      * getCheck returns 2
      */
     public static int getCheck(int num) {
-        int sum = 0;
-        for (int i = 0, j = 7; i < getNumberOfDigits(num); i++, j--) {
-            sum += getDigit(num, i + 1) * j;
-        }
-
-        return getDigit(sum, getNumberOfDigits(sum));
+        
+        
+        return 0;
     }
 
 
