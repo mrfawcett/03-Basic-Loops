@@ -1,0 +1,7 @@
+[
+ {"test": "HailstoneLengthTest", "name": "Hailstone.hailstoneLength", "points": 25},
+ {"test": "IsLongSeqTest",       "name": "Hailstone.isLongSeq",       "points": 10},
+ {"test": "PropLongTest",        "name": "Hailstone.propLong",        "points": 25},
+ {"test": "GetCheckTest",        "name": "CheckDigit.getCheck",       "points": 25},
+ {"test": "IsValidTest",         "name": "CheckDigit.isValid",        "points": 15}
+]
